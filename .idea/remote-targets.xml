@@ -2,7 +2,7 @@
 <project version="4">
   <component name="RemoteTargetsManager">
     <targets>
-      <target name="golang:latest" type="docker" uuid="911efe7c-6089-4c3c-8ca3-26dc64bdafdb">
+      <target name="golang:latest" type="docker" uuid="e9ee5685-e80b-42aa-a962-4f35bd195271">
         <config>
           <option name="targetPlatform">
             <TargetPlatform />
