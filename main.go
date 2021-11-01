@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	log "github.com/sirupsen/logrus"
+)
 
 func main() {
-	a := 3
-	fmt.Println(a)
+	log.WithFields(log.Fields{
+		"animal": "walrus",
+	}).Info("A walrus appears")
 }
